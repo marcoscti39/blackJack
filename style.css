@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+/* Header */
+
+.header__title{
+    font-size: 50px;
+    font-weight: 500;
+}
+.game__situation{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+/* ////////////////////// */
+
+/* Main */
+
+main{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game__local{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    min-height: 500px;
+    height: auto;
+    background-color:rgb(235, 117, 117);
+    gap: 17px
+}
+.you{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    background-color: green;
+}
+.you h2{
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+.dealer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    background-color: green;
+}
+.dealer h2{
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+.game__decisions{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.btn{
+    padding: 14px 35px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.hit__button{
+    color: white;
+    background-color: blue;
+}
+tr{
+    border: 1.5px solid black;
+    padding: 7px;
+}
+th{
+    border: 1.5px solid black;
+    padding: 7px;
+
+}
+td{
+    border: 1.5px solid black;
+    padding: 7px;
+
+}
+
+.yourCards{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.dealerCards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.deal__button{
+    color: white; 
+    background-color: red;
+}
+.stand__button{
+    color: black;
+    background-color: yellow;
+}
+img{
+    width: 120px;
+    height: 150px;
+    margin-bottom: 10px;
+}
